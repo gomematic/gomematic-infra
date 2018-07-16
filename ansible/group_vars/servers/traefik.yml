@@ -1,0 +1,4 @@
+traefik_domain: gomematic.tech
+traefik_email: hostmaster@gomematic.tech
+traefik_users:
+  - gomematic:$apr1$ASFc7itZ$IVquZ8J87ZQuZA0dfap7e/
