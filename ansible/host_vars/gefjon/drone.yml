@@ -14,7 +14,7 @@ drone_admins:
   - gomematicz
   - tboerger
 drone_whitelist:
-  - gomematic
+  - gomematic/*
 drone_escalate:
   - plugins/docker
   - docker
