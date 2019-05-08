@@ -1,3 +1,16 @@
+resource "github_repository" "homebrew-gomematic" {
+  name               = "homebrew-gomematic"
+  description        = "Gomematic: Homebrew"
+  homepage_url       = "https://gomematic.tech"
+  has_issues         = true
+  has_wiki           = false
+  allow_merge_commit = false
+  allow_squash_merge = true
+  allow_rebase_merge = true
+  has_downloads      = false
+  topics = ["homebrew", "formula"]
+}
+
 resource "github_repository" "gomematic-android" {
   name               = "gomematic-android"
   description        = "Gomematic: Android client"
@@ -8,6 +21,7 @@ resource "github_repository" "gomematic-android" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["android", "client"]
 }
 
 resource "github_repository" "gomematic-api" {
@@ -20,6 +34,7 @@ resource "github_repository" "gomematic-api" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["api", "server", "golang"]
 }
 
 resource "github_repository" "gomematic-cli" {
@@ -32,6 +47,7 @@ resource "github_repository" "gomematic-cli" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["cli", "golang", "client"]
 }
 
 resource "github_repository" "gomematic-desktop" {
@@ -44,6 +60,7 @@ resource "github_repository" "gomematic-desktop" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["desktop", "client"]
 }
 
 resource "github_repository" "gomematic-docs" {
@@ -56,6 +73,7 @@ resource "github_repository" "gomematic-docs" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["documentation", "docs", "hugo"]
 }
 
 resource "github_repository" "gomematic-go" {
@@ -68,6 +86,7 @@ resource "github_repository" "gomematic-go" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["sdk", "golang", "go", "openapi", "swagger"]
 }
 
 resource "github_repository" "gomematic-infra" {
@@ -80,6 +99,7 @@ resource "github_repository" "gomematic-infra" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["infrastructure", "ansible", "terraform", "provsioning"]
 }
 
 resource "github_repository" "gomematic-ios" {
@@ -92,6 +112,7 @@ resource "github_repository" "gomematic-ios" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["ios", "apple", "client"]
 }
 
 resource "github_repository" "gomematic-js" {
@@ -104,6 +125,7 @@ resource "github_repository" "gomematic-js" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["sdk", "javascript", "js", "openapi", "swagger"]
 }
 
 resource "github_repository" "gomematic-php" {
@@ -116,6 +138,7 @@ resource "github_repository" "gomematic-php" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["sdk", "php", "openapi", "swagger"]
 }
 
 resource "github_repository" "gomematic-python" {
@@ -128,6 +151,7 @@ resource "github_repository" "gomematic-python" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["sdk", "python", "openapi", "swagger"]
 }
 
 resource "github_repository" "gomematic-ruby" {
@@ -140,6 +164,7 @@ resource "github_repository" "gomematic-ruby" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["sdk", "ruby", "openapi", "swagger"]
 }
 
 resource "github_repository" "gomematic-scripts" {
@@ -152,6 +177,7 @@ resource "github_repository" "gomematic-scripts" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
+  topics = ["script", "bash", "provision"]
 }
 
 resource "github_repository" "gomematic-ui" {
@@ -164,16 +190,5 @@ resource "github_repository" "gomematic-ui" {
   allow_squash_merge = true
   allow_rebase_merge = true
   has_downloads      = false
-}
-
-resource "github_repository" "homebrew-gomematic" {
-  name               = "homebrew-gomematic"
-  description        = "Gomematic: Homebrew"
-  homepage_url       = "https://gomematic.tech"
-  has_issues         = true
-  has_wiki           = false
-  allow_merge_commit = false
-  allow_squash_merge = true
-  allow_rebase_merge = true
-  has_downloads      = false
+  topics = ["ui", "nodejs"]
 }

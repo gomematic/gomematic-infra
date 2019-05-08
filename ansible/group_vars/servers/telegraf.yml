@@ -1,3 +1,5 @@
+telegraf_templates: 'telegraf/{{ inventory_hostname }}'
+
 telegraf_prometheus_username: !vault |
   $ANSIBLE_VAULT;1.1;AES256
   64303536623234393331323033383665323066386565353639343938613065643133643433613632
