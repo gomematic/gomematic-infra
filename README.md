@@ -1,7 +1,6 @@
 # Geomatic: Infra
 
-[![Build Status](http://cloud.drone.io/api/badges/gomematic/gomematic-infra/status.svg)](http://cloud.drone.io/gomematic/gomematic-infra)
-[![Stories in Ready](https://badge.waffle.io/gomematic/gomematic-api.svg?label=ready&title=Ready)](http://waffle.io/gomematic/gomematic-api)
+[![Build Status](https://cloud.drone.io/api/badges/gomematic/gomematic-infra/status.svg)](https://cloud.drone.io/gomematic/gomematic-infra)
 [![Join the Matrix chat at https://matrix.to/#/#gomematic:matrix.org](https://img.shields.io/badge/matrix-%23gomematic%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#gomematic:matrix.org)
 
 **This project is under heavy development, it's not in a working state yet!**
